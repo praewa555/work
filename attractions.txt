@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สถานที่ท่องเที่ยว จังหวัดพิษณุโลก</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            margin: 0 5px;
+            border: 1px solid white;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        nav a:hover {
+            background-color: white;
+            color: #4CAF50;
+        }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .attraction {
+            margin-bottom: 2rem;
+        }
+        .attraction img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 1rem 0;
+        }
+        h2, h3 {
+            color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>สถานที่ท่องเที่ยว จังหวัดพิษณุโลก</h1>
+        <nav>
+            <a href="index.html">หน้าหลัก</a>
+            <a href="attractions.html">สถานที่ท่องเที่ยว</a>
+            <a href="traditions.html">ประเพณี</a>
+            <a href="food.html">อาหาร</a>
+            <a href="accommodation.html">ที่พัก</a>
+            <a href="member.html">สมาชิกผู้จัดทำ</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>สถานที่ท่องเที่ยวสำคัญในจังหวัดพิษณุโลก</h2>
+
+        <div class="attraction">
+            <h3>1. วัดพระศรีรัตนมหาธาตุ (วัดพระพุทธชินราช)</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Phra_Puttha_Chinnarat.jpg" alt="วัดพระพุทธชินราช จังหวัดพิษณุโลก">
+            <p>วัดพระศรีรัตนมหาธาตุ หรือ วัดพระพุทธชินราช เป็นวัดที่มีพระพุทธรูปสำคัญคือ พระพุทธชินราช ซึ่งเป็นพระพุทธรูปที่มีชื่อเสียงและเป็นที่เคารพของชาวพิษณุโลกและชาวไทยทั่วประเทศ</p>
+        </div>
+
+        <div class="attraction">
+            <h3>2. เขาพระบาท</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Phra_Bat_Mountain.jpg" alt="เขาพระบาท จังหวัดพิษณุโลก">
+            <p>เขาพระบาทเป็นสถานที่ที่มีความสำคัญทางศาสนา และนักท่องเที่ยวสามารถเดินขึ้นเขาเพื่อชมวิวที่สวยงามและดูรอยพระพุทธบาทที่มีอยู่บนยอดเขา</p>
+        </div>
+
+        <div class="attraction">
+            <h3>3. อุทยานแห่งชาติน้ำตกชาติตระการ</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Phu_Thap_Berk_waterfall.jpg" alt="น้ำตกชาติตระการ จังหวัดพิษณุโลก">
+            <p>อุทยานแห่งชาติน้ำตกชาติตระการเป็นสถานที่ท่องเที่ยวที่มีธรรมชาติสวยงาม น้ำตกหลายแห่งและกิจกรรมที่น่าสนใจ เช่น การเดินป่าและการดูนก</p>
+        </div>
+
+        <div class="attraction">
+            <h3>4. วัดนางพญา</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Wat_Nang_Paya.jpg" alt="วัดนางพญา จังหวัดพิษณุโลก">
+            <p>วัดนางพญาเป็นวัดที่มีชื่อเสียงในด้านการเป็นสถานที่ที่เก็บพระพุทธรูปปางนางพญาและเป็นที่เคารพของชาวพิษณุโลก</p>
+        </div>
+    </div>
+</body>
+</html>

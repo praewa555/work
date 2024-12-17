@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ที่พัก จังหวัดพิษณุโลก</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            margin: 0 5px;
+            border: 1px solid white;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        nav a:hover {
+            background-color: white;
+            color: #4CAF50;
+        }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .accommodation {
+            margin-bottom: 2rem;
+        }
+        .accommodation img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 1rem 0;
+        }
+        h2, h3 {
+            color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ที่พัก จังหวัดพิษณุโลก</h1>
+        <nav>
+            <a href="index.html">หน้าหลัก</a>
+            <a href="attractions.html">สถานที่ท่องเที่ยว</a>
+            <a href="traditions.html">ประเพณี</a>
+            <a href="food.html">อาหาร</a>
+            <a href="accommodation.html">ที่พัก</a>
+            <a href="member.html">สมาชิกผู้จัดทำ</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>ที่พักยอดนิยมในจังหวัดพิษณุโลก</h2>
+
+        <div class="accommodation">
+            <h3>1. โรงแรมพิษณุโลกแกรนด์</h3>
+            <img src="https://www.shorturl.asia/KCYbW" alt="โรงแรมพิษณุโลกแกรนด์">
+            <p>โรงแรมพิษณุโลกแกรนด์ตั้งอยู่ใจกลางเมืองพิษณุโลก มีห้องพักที่สะดวกสบายและบริการระดับพรีเมียม พร้อมสิ่งอำนวยความสะดวกครบครัน เช่น สระว่ายน้ำ ฟิตเนส และห้องอาหารที่เสิร์ฟอาหารไทยและนานาชาติ</p>
+        </div>
+
+        <div class="accommodation">
+            <h3>2. รีสอร์ทบ้านปู่สู่</h3>
+            <img src="https://www.shorturl.asia/R4Xyr" alt="รีสอร์ทบ้านปู่สู่">
+            <p>รีสอร์ทบ้านปู่สู่เป็นที่พักที่ตั้งอยู่ในพื้นที่ธรรมชาติของจังหวัดพิษณุโลก เหมาะสำหรับผู้ที่ต้องการพักผ่อนในบรรยากาศเงียบสงบและใกล้ชิดกับธรรมชาติ มีบ้านพักและกระท่อมไม้ที่ตกแต่งในสไตล์ไทยๆ</p>
+        </div>
+
+        <div class="accommodation">
+            <h3>3. โฮมสเตย์บ้านสวนลุงหวาน</h3>
+            <img src="https://www.shorturl.asia/w4Fqi" alt="โฮมสเตย์บ้านสวนลุงหวาน">
+            <p>โฮมสเตย์บ้านสวนลุงหวานตั้งอยู่ในพื้นที่ชนบทของพิษณุโลก ให้บริการที่พักแบบโฮมสเตย์ในบรรยากาศบ้านสวน มีอาหารท้องถิ่นอร่อยๆ เสิร์ฟให้พร้อมประสบการณ์การใช้ชีวิตในชนบทไทย</p>
+        </div>
+
+        <div class="accommodation">
+            <h3>4. เกสต์เฮ้าส์พิษณุโลกโฮสเทล</h3>
+            <img src="https://www.shorturl.asia/Mx4Zl" alt="เกสต์เฮ้าส์พิษณุโลกโฮสเทล">
+            <p>เกสต์เฮ้าส์พิษณุโลกโฮสเทลเหมาะสำหรับนักท่องเที่ยวที่ต้องการที่พักราคาประหยัด ตั้งอยู่ใกล้กับสถานีขนส่งและแหล่งท่องเที่ยวในตัวเมือง มีทั้งห้องพักส่วนตัวและห้องพักแบบรวม</p>
+        </div>
+    </div>
+</body>
+</html>

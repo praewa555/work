@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>อาหาร จังหวัดพิษณุโลก</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            margin: 0 5px;
+            border: 1px solid white;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        nav a:hover {
+            background-color: white;
+            color: #4CAF50;
+        }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .food {
+            margin-bottom: 2rem;
+        }
+        .food img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 1rem 0;
+        }
+        h2, h3 {
+            color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>อาหาร จังหวัดพิษณุโลก</h1>
+        <nav>
+            <a href="index.html">หน้าหลัก</a>
+            <a href="attractions.html">สถานที่ท่องเที่ยว</a>
+            <a href="traditions.html">ประเพณี</a>
+            <a href="food.html">อาหาร</a>
+            <a href="accommodation.html">ที่พัก</a>
+            <a href="member.html">สมาชิกผู้จัดทำ</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>อาหารที่มีชื่อเสียงในจังหวัดพิษณุโลก</h2>
+
+        <div class="food">
+            <h3>1. ขนมจีนยาวน้อย</h3>
+            <img src="https://www.shorturl.asia/AK3qu" alt="ขนมจีนยาวน้อย จังหวัดพิษณุโลก">
+            <p>ขนมจีนยาวน้อยเป็นอาหารท้องถิ่นที่มีชื่อเสียงของจังหวัดพิษณุโลก ที่ทำจากเส้นขนมจีนสด ๆ ราดด้วยน้ำแกงที่มีรสชาติเผ็ดร้อน อร่อยและทานง่าย</p>
+        </div>
+
+        <div class="food">
+            <h3>2. ก๋วยเตี๋ยวเรือพิษณุโลก</h3>
+            <img src="https://www.shorturl.asia/xYbXh" alt="ก๋วยเตี๋ยวเรือพิษณุโลก">
+            <p>ก๋วยเตี๋ยวเรือพิษณุโลกเป็นก๋วยเตี๋ยวที่มีรสชาติเด็ด เน้นการต้มซุปที่เข้มข้นด้วยเครื่องเทศและสมุนไพรต่าง ๆ มีทั้งเนื้อหมูและเนื้อวัว ทานคู่กับน้ำซุปที่มีรสจัดจ้าน</p>
+        </div>
+
+        <div class="food">
+            <h3>3. น้ำพริกปลาทู</h3>
+            <img src="https://www.shorturl.asia/de4gF" alt="น้ำพริกปลาทู จังหวัดพิษณุโลก">
+            <p>น้ำพริกปลาทูเป็นอาหารที่ใช้ปลาทูทอดเป็นส่วนผสมหลัก น้ำพริกนี้มีรสชาติเค็ม ๆ หวาน ๆ ทานกับข้าวสวยร้อน ๆ หรือผักสดจะทำให้ได้รสชาติที่ยอดเยี่ยม</p>
+        </div>
+
+        <div class="food">
+            <h3>4. ข้าวแช่พิษณุโลก</h3>
+            <img src="https://www.shorturl.asia/6Uzay" alt="ข้าวแช่พิษณุโลก">
+            <p>ข้าวแช่พิษณุโลกเป็นอาหารที่นิยมในช่วงฤดูร้อน มีรสชาติสดชื่นและเย็นสบาย ทำจากข้าวหอมมะลิแช่ในน้ำเย็น ๆ ราดด้วยน้ำขลุกขลิกและเครื่องเคียง เช่น หมูหวาน ไข่เค็ม และผักสด</p>
+        </div>
+    </div>
+</body>
+</html>
